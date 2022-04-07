@@ -1,0 +1,14 @@
+
+1.打包文件
+1.1安装build
+python -m pip install build
+
+1.2发布whl和targz
+python -m build
+
+
+2.发布
+2.1安装twine
+pip install twine
+2.2 上传testpypi
+python -m twine upload --repository testpypi dist/*

@@ -1,0 +1,3 @@
+[console_scripts]
+neurontracing2D = neuron_tracing.cli.tracing_cli_2D:run
+neurontracing3D = neuron_tracing.cli.tracing_cli_3D:run
